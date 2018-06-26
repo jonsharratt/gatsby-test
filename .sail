@@ -11,6 +11,7 @@
     <Run command="yarn build" />
     <Branch when="^master$">
       <Run command="cd public" />
+      <Run command="yarn global add now" />
       <ZeitNow
         allowPublic
         token="$ZEIT_TOKEN"
