@@ -1,5 +1,4 @@
 <pipeline>
-
   <environment>
     <variable
       secret
@@ -15,7 +14,7 @@
       <ZeitNow
         allowPublic
         token="$ZEIT_TOKEN"
-        alias="sharratt-gatsby"
+        alias="gatsby-demo-sharratt"
       />
     </Branch>
   </job>
